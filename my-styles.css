@@ -1,0 +1,43 @@
+body {
+    background-color: #ffdf99;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+img {
+    width: 275px;
+}
+
+.images {
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 50%;
+    margin: 0 auto;
+}
+
+li {
+    margin-right: 50px;
+}
+
+ul {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+blockquote {
+    width: 50%;
+    margin: auto;
+}
