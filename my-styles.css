@@ -1,23 +1,18 @@
-body {
-    background-color: #ffdf99;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
 h1 {
     color: black;
+    text-align: center;
 }
 
 h2 {
     color: black;
+    text-align: center;
 }
 
 img {
+    display: flex;
     width: 275px;
-}
-
-.images {
     align-items: center;
+    flex-wrap: wrap;
 }
 
 p {
@@ -25,19 +20,35 @@ p {
     line-height: 1.5;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
 li {
     margin-right: 50px;
+    text-align: center;
+    list-style-type: none;
 }
 
 ul {
     font-size: 16px;
     margin: 0 auto;
     width: 50%;
+    text-align: center;
 }
 
 blockquote {
     width: 50%;
     margin: auto;
+}
+
+#center-quote {
+    text-align: center;
+}
+
+#images-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
